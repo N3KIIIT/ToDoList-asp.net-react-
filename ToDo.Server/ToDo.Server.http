@@ -1,0 +1,9 @@
+@ToDo.Server_HostAddress = http://localhost:5207
+
+GET {{ToDo.Server_HostAddress}}/api/Task/
+Accept: application/json
+
+###
+DELETE {{ToDo.Server_HostAddress}}/api/Task/faaa70c2-a79a-48bb-c388-08dc3cf84554
+Accept: application/json
+###
